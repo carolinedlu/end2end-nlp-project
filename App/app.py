@@ -18,7 +18,10 @@ import numpy as np
 import joblib
 
 import speech_recognition as sr
+import os
 
+arr = os.listdir()
+st.write(arr)
 
 # load trained model
 pipe_lr = joblib.load(open("emotion_classifier_pipe_lr_14_June_2022.pkl", "rb"))
