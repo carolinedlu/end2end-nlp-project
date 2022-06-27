@@ -20,7 +20,7 @@ import joblib
 import speech_recognition as sr
 import os
 
-arr = os.listdir()
+arr = os.getcwd()
 st.write(arr)
 
 # load trained model
